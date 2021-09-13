@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: owasp10-awareness-panel
+      function: main
+      title: OWASP Top Ten
+      icon: https://owasp.org/assets/images/logo.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/3e2f8691-9637-4afd-b9d8-0571d7735c6b
